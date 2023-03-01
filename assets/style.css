@@ -1,5 +1,34 @@
+:root {
+    --light-beige: #FAF8F1; 
+    --yellow: #FAEAB1;
+    --beige: #E5BA73;
+    --brown: #C58940;
+}
+
 body {
 
-    background-color: black;
-    color: white;
+    background-color: var(--brown);
+    color: var(--light-beige);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--beige);
+}
+h2 {
+
+
+}
+
+h3 {
+
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--beige);
 }
