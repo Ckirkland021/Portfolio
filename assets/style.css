@@ -5,6 +5,21 @@
     --brown: #C58940;
 }
 
+header {
+    padding: 20px;
+    background-color: var(--brown);
+
+}
+#nav li {
+
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--brown);
+    display: inline;
+    /* text-align: center; */
+    padding: 5px;
+}
+
 body {
 
     background-color: var(--brown);
