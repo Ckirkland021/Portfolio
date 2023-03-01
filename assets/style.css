@@ -6,14 +6,14 @@
 }
 
 header {
-    padding: 20px;
+    padding: 25px;
     background-color: var(--brown);
 
 }
 #nav li {
 
     font-weight: bold;
-    font-size: 22px;
+    font-size: 25px;
     color: var(--brown);
     display: inline;
     /* text-align: center; */
@@ -35,7 +35,7 @@ h1 {
     color: var(--light-beige);
     margin: 0px;
     display: block;
-    font-size: 80px;
+    font-size: 100px;
 }
 .main {
 
@@ -44,15 +44,26 @@ h1 {
 }
 h2 {
    display: inline-block;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 h3 {
     display: flex;
     flex-direction: column;
     margin: 30px;
-    font-size: 30px;
+    font-size: 40px;
 
+}
+
+.lower-sections {
+    color: var(--yellow);
+    font-size: 60px;
+} 
+
+p {
+
+    color: var(--yellow);
+    font-size: 25px;
 }
 
 footer {
