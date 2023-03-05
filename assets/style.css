@@ -16,6 +16,7 @@ a {
 }
 a:hover {
     color: var(--very-light);
+    text-shadow: 5px 5px 5px var(--light-blue);
 }
 
 #nav li {
@@ -63,6 +64,7 @@ h1 {
     margin: 0px;
     display: block;
     font-size: 100px;
+    text-shadow: 5px 5px 5px var(--black);
 }
 .main {
 
