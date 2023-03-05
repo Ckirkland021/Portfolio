@@ -14,6 +14,10 @@ header {
 a {
     color: var(--blue);
 }
+a:hover {
+    color: var(--very-light);
+}
+
 #nav li {
 
     font-weight: bold;
@@ -25,7 +29,7 @@ a {
     text-align: left;
 }
 
-#about:hover a {
+/* #about:hover a {
     color: var(--very-light);
 }
 #work:hover a {
@@ -36,7 +40,7 @@ a {
 }
 #github:hover a {
     color: var(--very-light);
-}
+} */
 
 
 body {
@@ -90,8 +94,9 @@ h3 {
     font-size: 60px;
     padding: 10px;
     margin: 10px;
-    border-bottom: solid var(--blue);
+    border-bottom: solid var(--light-blue);
     display: block;
+    flex: 1;
 } 
 
 p {
@@ -99,6 +104,7 @@ p {
     color: var(--very-light);
     font-size: 25px;
     margin: 20px;
+    flex: 2;
 }
 .sections li {
     font-size: 25px;
