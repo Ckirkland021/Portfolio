@@ -1,33 +1,48 @@
 :root {
-    --light-beige: #FAF8F1; 
-    --yellow: #FAEAB1;
-    --beige: #E5BA73;
-    --brown: #C58940;
+    --black: #181823; 
+    --blue: #537FE7;
+    --light-blue: #C0EEF2;
+    --very-light: #E9F8F9;
 }
 
 header {
-    padding: 25px;
-    background-color: var(--brown);
+    padding: 1px;
+    background-color: var(--black);
+    text-align: end;
 
+}
+a {
+    color: var(--blue);
 }
 #nav li {
 
     font-weight: bold;
     font-size: 25px;
-    color: var(--brown);
+    color: var(--blue);
     display: inline-block;
     /* text-align: center; */
-    padding: 5px;
+    padding: 10px;
+    text-align: left;
 }
-#nav:hover a {
-    color: var(--yellow);
+
+#about:hover a {
+    color: var(--very-light);
+}
+#work:hover a {
+    color: var(--very-light);
+}
+#contact:hover a {
+    color: var(--very-light);
+}
+#github:hover a {
+    color: var(--very-light);
 }
 
 
 body {
 
-    background-color: var(--brown);
-    color: var(--brown);
+    background-color: var(--black);
+    color: var(--blue);
     font-family: sans-serif;
     margin: 0px;
 }
@@ -35,46 +50,66 @@ body {
 h1 {
     text-align: center;
     padding: 40px;
-    background-color: var(--beige);
-    color: var(--light-beige);
+    background-color: var(--light-blue);
+    color: var(-- --blue);
     margin: 0px;
     display: block;
     font-size: 100px;
 }
 .main {
 
-    background-color: var(--yellow);
+    background-color: var(--light-blue);
     text-align: center;
+    margin-bottom: 30px;
+    display: flex;
 }
 h2 {
    display: inline-block;
     font-size: 60px;
+    color: var(--blue);
+    /* border-bottom: solid var(--beige); */
 }
 
 h3 {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     margin: 30px;
     font-size: 40px;
+    flex-wrap: wrap;
+    padding: 30px;
+    border: solid var(--blue);
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    flex-direction: column;
+    border-width: 50px;
 }
 
 .sections {
-    color: var(--yellow);
+    color: var(--blue);
     font-size: 60px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: solid var(--blue);
+    display: block;
 } 
 
 p {
 
-    color: var(--yellow);
+    color: var(--very-light);
     font-size: 25px;
+    margin: 20px;
 }
 .sections li {
     font-size: 25px;
+    color: var(--very-light);
+    margin: 10px;
+    padding: 10px;
 }
 footer {
     text-align: center;
     padding: 20px;
-    background-color: var(--beige);
+    background-color: var(--black);
     margin: 0px;
-    color: black;
+    color: var(--very-light);
 }
