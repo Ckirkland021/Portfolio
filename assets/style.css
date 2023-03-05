@@ -74,10 +74,11 @@ h1 {
     display: flex;
 }
 h2 {
-   display: inline-block;
+   /* display: inline-block; */
     font-size: 60px;
     color: var(--blue);
-    /* border-bottom: solid var(--beige); */
+    text-shadow: 1px 1px 5px var(--blue);
+    
 }
 
 h3 {
@@ -93,6 +94,22 @@ h3 {
     border-width: 20px;
     background-color: var(--black);
     color: var(--light-blue);
+    text-shadow: 1px 1px 3px var(--very-light);
+}
+h3:hover {
+    display: block;
+    color: var(--very-light);
+    text-shadow: 5px 5px 5px var(--light-blue);
+}
+#html:hover {
+    box-shadow: 5px 5px 5px 5px var(--black);
+}
+#css:hover {
+    box-shadow: 5px 5px 5px 5px var(--black);
+}#advanced:hover {
+    box-shadow: 5px 5px 5px 5px var(--black);
+}#java:hover {
+    box-shadow: 5px 5px 5px 5px var(--black);
 }
 
 .sections {
