@@ -123,11 +123,14 @@ h3:hover {
 } 
 
 p {
-
     color: var(--very-light);
     font-size: 25px;
     margin: 20px;
     flex: 2;
+    display: block;
+    max-width: 1100px;
+    flex-wrap: wrap;
+    line-height: 30px;
 }
 .sections li {
     font-size: 25px;
