@@ -15,10 +15,14 @@ header {
     font-weight: bold;
     font-size: 25px;
     color: var(--brown);
-    display: inline;
+    display: inline-block;
     /* text-align: center; */
     padding: 5px;
 }
+#nav:hover a {
+    color: var(--yellow);
+}
+
 
 body {
 
@@ -52,10 +56,9 @@ h3 {
     flex-direction: column;
     margin: 30px;
     font-size: 40px;
-
 }
 
-.lower-sections {
+.sections {
     color: var(--yellow);
     font-size: 60px;
 } 
@@ -65,7 +68,9 @@ p {
     color: var(--yellow);
     font-size: 25px;
 }
-
+.sections li {
+    font-size: 25px;
+}
 footer {
     text-align: center;
     padding: 20px;
