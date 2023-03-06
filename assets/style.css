@@ -47,13 +47,14 @@ body {
 h1 {
     text-align: center;
     padding: 40px;
-    background-color: var(--light-blue);
-    color: var(-- --blue);
+    background-color: var(--blue);
+    color: var(--light-blue);
     margin: 0px;
     display: block;
     font-size: 100px;
     text-shadow: 5px 5px 5px var(--black);
     border-radius: 20px;
+    background: url("/Portfolio/assets/coding\ photo.jpg");
 }
 .main {
 
