@@ -28,7 +28,7 @@ a:hover {
     /* text-align: center; */
     padding: 10px;
     text-align: left;
-    margin: 0px;
+    margin: 10px;
 }
 
 /* #about:hover a {
@@ -70,8 +70,10 @@ h1 {
 
     background-color: var(--light-blue);
     text-align: center;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     display: flex;
+    height: 600px;
+
 }
 h2 {
    /* display: inline-block; */
@@ -83,33 +85,38 @@ h2 {
 
 h3 {
     display: block;
-    /* flex-direction: column; */
-    margin: 20px;
+    margin: 30px;
     font-size: 40px;
     flex-wrap: wrap;
     padding: 30px;
     border: solid var(--blue);
-    height: 100px;
+    height: 400px;
     width: 400px;
     border-width: 20px;
     background-color: var(--black);
     color: var(--light-blue);
-    text-shadow: 1px 1px 3px var(--very-light);
+    text-shadow: 1px 1px 1px var(--very-light);
+    border-radius: 20%;
+    flex: auto;
 }
 h3:hover {
     display: block;
     color: var(--very-light);
-    text-shadow: 5px 5px 5px var(--light-blue);
+    text-shadow: 2px 2px 2px var(--light-blue);
 }
 #html:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
+    transform: scale(1,1.2);
 }
 #css:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
+    transform: scale(1,1.2);
 }#advanced:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
+    transform: scale(1,1.2);
 }#java:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
+    transform: scale(1,1.2);
 }
 
 .sections {
