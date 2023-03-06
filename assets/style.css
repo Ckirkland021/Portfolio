@@ -15,6 +15,7 @@ nav {
 }
 a {
     color: var(--blue);
+    text-decoration: none;
 }
 a:hover {
     color: var(--very-light);
@@ -31,6 +32,9 @@ a:hover {
     padding: 10px;
     margin: 10px;
     border-left: solid var(--light-blue);
+}
+#nav #worknav {
+    border-left: none;
 }
 
 body {
