@@ -67,7 +67,7 @@ h1 {
 h2 {
     font-size: 60px;
     color: var(--blue);
-    text-shadow: 1px 1px 5px var(--blue);
+    /* text-shadow: 1px 1px 5px var(--blue); */
     border-bottom: solid var(--light-blue);
     
 }
