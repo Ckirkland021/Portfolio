@@ -64,6 +64,7 @@ h2 {
     font-size: 60px;
     color: var(--blue);
     text-shadow: 1px 1px 5px var(--blue);
+    border-bottom: solid var(--light-blue);
     
 }
 
@@ -132,7 +133,7 @@ h3:hover {
     font-size: 60px;
     padding: 10px;
     margin: 10px;
-    border-bottom: solid var(--light-blue);
+    /* border-bottom: solid var(--light-blue); */
     display: block;
     flex: 1;
 } 
@@ -142,9 +143,8 @@ img {
     border-radius: 100px;
     height: 400px;
     margin: 20px;
-
+    float: right;
 }
-
 p {
     color: var(--very-light);
     font-size: 25px;
@@ -155,7 +155,16 @@ p {
     flex-wrap: wrap;
     line-height: 30px;
 }
-
+#work {
+    margin: 200px;
+    margin-bottom: 20px;
+}
+#about {
+    margin: 200px;
+}
+#contact {
+    margin: 200px;
+}
 .sections li {
     font-size: 25px;
     color: var(--very-light);
@@ -168,4 +177,8 @@ footer {
     background-color: var(--black);
     margin: 0px;
     color: var(--very-light);
+}
+
+@media screen {
+    
 }
