@@ -86,22 +86,22 @@ h3 {
 #html {
     background: url("/Portfolio/assets/html\ photo.png");
     background-size: cover;
-    opacity: .8;
+    opacity: .9;
 }
 #css {
     background: url("/Portfolio/assets/css\ photo.png");
     background-size: cover;
-    opacity: .8;
+    opacity: .9;
 }
 #advanced {
     background: url("/Portfolio/assets/advanced\ css\ photo.png");
     background-size: cover;
-    opacity: .8;
+    opacity: .9;
 }
 #java {
     background: url("/Portfolio/assets/java\ photo.png") ;
     background-size: cover;
-    opacity: .8;
+    opacity: .9;
 }
 h3:hover {
     display: block;
@@ -141,7 +141,7 @@ img {
     display: block;
     border-radius: 100px;
     height: 400px;
-    margin-left: 20px;
+    margin: 20px;
 
 }
 
