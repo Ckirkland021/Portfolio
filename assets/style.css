@@ -55,6 +55,7 @@ h1 {
     text-shadow: 5px 5px 5px var(--black);
     border-radius: 20px;
     background: url("/Portfolio/assets/coding\ photo.jpg");
+    background-size: cover;
 }
 .main {
 
