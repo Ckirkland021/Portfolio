@@ -117,19 +117,27 @@ h3:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
     opacity: 1;
+    z-index: 1;
+    margin: 100px;
 }
 #css:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
     opacity: 1;
+    z-index: 1;
+    margin: 100px;
 }#advanced:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
     opacity: 1;
+    z-index: 1;
+    margin: 100px;
 }#java:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
     opacity: 1;
+    z-index: 1;
+    margin: 100px;
 }
 
 .sections {
