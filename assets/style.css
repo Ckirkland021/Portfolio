@@ -86,18 +86,22 @@ h3 {
 #html {
     background: url("/Portfolio/assets/html\ photo.png");
     background-size: cover;
+    opacity: .8;
 }
 #css {
     background: url("/Portfolio/assets/css\ photo.png");
     background-size: cover;
+    opacity: .8;
 }
 #advanced {
     background: url("/Portfolio/assets/advanced\ css\ photo.png");
     background-size: cover;
+    opacity: .8;
 }
 #java {
-    background: url("/Portfolio/assets/java\ photo.png");
+    background: url("/Portfolio/assets/java\ photo.png") ;
     background-size: cover;
+    opacity: .8;
 }
 h3:hover {
     display: block;
@@ -107,16 +111,20 @@ h3:hover {
 #html:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
+    opacity: 1;
 }
 #css:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
+    opacity: 1;
 }#advanced:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
+    opacity: 1;
 }#java:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
     transform: scale(1.5,1.5);
+    opacity: 1;
 }
 
 .sections {
@@ -128,6 +136,14 @@ h3:hover {
     display: block;
     flex: 1;
 } 
+
+img {
+    display: block;
+    border-radius: 100px;
+    height: 400px;
+    margin-left: 20px;
+
+}
 
 p {
     color: var(--very-light);
