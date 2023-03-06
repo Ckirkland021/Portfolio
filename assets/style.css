@@ -8,8 +8,10 @@
 header {
     padding: 1px;
     background-color: var(--black);
+    /* text-align: end; */
+}
+nav {
     text-align: end;
-
 }
 a {
     color: var(--blue);
@@ -27,23 +29,9 @@ a:hover {
     display: inline-block;
     /* text-align: center; */
     padding: 10px;
-    text-align: left;
     margin: 10px;
+    border-left: solid var(--light-blue);
 }
-
-/* #about:hover a {
-    color: var(--very-light);
-}
-#work:hover a {
-    color: var(--very-light);
-}
-#contact:hover a {
-    color: var(--very-light);
-}
-#github:hover a {
-    color: var(--very-light);
-} */
-
 
 body {
 
@@ -52,10 +40,6 @@ body {
     font-family: sans-serif;
     margin: 0px;
 }
-aside {
-flex: 1;
-}
-
 h1 {
     text-align: center;
     padding: 40px;
@@ -65,6 +49,7 @@ h1 {
     display: block;
     font-size: 100px;
     text-shadow: 5px 5px 5px var(--black);
+    border-radius: 20px;
 }
 .main {
 
@@ -76,7 +61,6 @@ h1 {
 
 }
 h2 {
-   /* display: inline-block; */
     font-size: 60px;
     color: var(--blue);
     text-shadow: 1px 1px 5px var(--blue);
@@ -99,6 +83,22 @@ h3 {
     border-radius: 20%;
     flex: auto;
 }
+#html {
+    background: url("/Portfolio/assets/html\ photo.png");
+    background-size: cover;
+}
+#css {
+    background: url("/Portfolio/assets/css\ photo.png");
+    background-size: cover;
+}
+#advanced {
+    background: url("/Portfolio/assets/advanced\ css\ photo.png");
+    background-size: cover;
+}
+#java {
+    background: url("/Portfolio/assets/java\ photo.png");
+    background-size: cover;
+}
 h3:hover {
     display: block;
     color: var(--very-light);
@@ -106,17 +106,17 @@ h3:hover {
 }
 #html:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
-    transform: scale(1,1.2);
+    transform: scale(1.5,1.5);
 }
 #css:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
-    transform: scale(1,1.2);
+    transform: scale(1.5,1.5);
 }#advanced:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
-    transform: scale(1,1.2);
+    transform: scale(1.5,1.5);
 }#java:hover {
     box-shadow: 5px 5px 5px 5px var(--black);
-    transform: scale(1,1.2);
+    transform: scale(1.5,1.5);
 }
 
 .sections {
@@ -139,6 +139,7 @@ p {
     flex-wrap: wrap;
     line-height: 30px;
 }
+
 .sections li {
     font-size: 25px;
     color: var(--very-light);
