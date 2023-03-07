@@ -6,4 +6,4 @@ https://github.com/Ckirkland021/Portfolio
 
 
 <h1>Deplyoable link</h1>
-
+https://ckirkland021.github.io/Portfolio/
