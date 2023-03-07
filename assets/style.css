@@ -67,6 +67,18 @@ h1 {
     justify-content: space-around;
     align-content:space-around;
 }
+#refractor {
+    display: block;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#refractor:hover {
+
+    opacity: .7;
+    box-shadow: 5px 5px 5px 5px var(--black);
+    transform: scale(1.05,1.05);
+}
 h2 {
     font-size: 60px;
     color: var(--blue);
@@ -153,7 +165,7 @@ h3:hover {
     flex: 1;
 } 
 
-img {
+#me {
     display: block;
     border-radius: 100px;
     height: 400px;
